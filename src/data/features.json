@@ -1,0 +1,39 @@
+[
+  
+  {
+    "name": "Web Design",
+    "id": "02",
+    "image": "/public/images/food.jpg",
+    "alt": "website design project"
+  },
+  {
+    "name": "Motion Design",
+    "id": "03",
+    "image": "/public/images/paint.jpg",
+    "alt": "motion graphics project"
+  },
+  {
+    "id": "02",
+    "name": "Interactive",
+    "image": "/public/images/music.jpg",
+    "alt": "interactive website project"
+  },
+  {
+    "name": "UI / UX Design",
+    "id": "06",
+    "image": "/public/images/food.jpg",
+    "alt": "ui ux design project"
+  },
+  {
+    "name": "Digital Strategy",
+    "id": "07",
+    "image": "/public/images/paint.jpg",
+    "alt": "digital strategy project"
+  },
+  {
+    "name": "Brand Identity",
+    "id": "01",
+    "image": "/public/images/brand.jpg",
+    "alt": "branding project"
+  }
+]

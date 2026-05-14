@@ -1,0 +1,14 @@
+.line-reveal{
+    overflow: hidden;
+    display: inline-block;
+    height: fit-content;
+
+    &__wrapper{
+        display: inline-block;
+        overflow: hidden;
+    }
+
+    &__letter{
+        display: inline-block;
+    }
+}

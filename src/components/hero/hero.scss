@@ -1,0 +1,41 @@
+.hero{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    &:hover{
+        .cursor{
+            display: block;
+        }
+    }
+
+    @media screen and (min-width:768px) {
+        height: 100dvh;
+    }
+
+    h1{
+        font-size: 5.5rem;
+        text-transform: uppercase;
+        font-family: "Sofia Sans Extra Condensed", sans-serif;
+        line-height: 4.5rem;
+        text-align: center;
+        font-weight: 900;
+        display: flex;
+        flex-direction: column;
+
+        @media screen and (min-width:768px){
+            font-size: 14rem;
+            line-height: 11rem;
+        }
+    }
+
+    &__scroll{
+        position: absolute;
+        bottom: 2rem;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+}

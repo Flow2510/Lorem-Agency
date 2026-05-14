@@ -1,0 +1,42 @@
+[
+    {
+        "id": "123",
+        "name": "Creative Front-end",
+        "image": {
+            "url": "/public/images/food.jpg",
+            "alt": "Description de l'image"
+        },
+        "text": "Immersive interfaces built with motion, interaction and strong visual rhythm.",
+        "video": "/public/video/motion.mp4"
+    },
+    {
+        "id": "461",
+        "name": "Motion-first Design",
+        "image": {
+            "url": "/public/images/brand.jpg",
+            "alt": "Description de l'image"
+        },
+        "text": "Animations crafted to create emotion, storytelling and stronger user engagement.",
+        "video": "/public/video/motion2.mp4"
+    },
+    {
+        "id": "156",
+        "name": "Visual Direction",
+        "image": {
+            "url": "/public/images/music.jpg",
+            "alt": "Description de l'image"
+        },
+        "text": "Strong digital aesthetics inspired by editorial layouts and premium design systems.",
+        "video": "/public/video/motion3.mp4"
+    },
+    {
+        "id": "896",
+        "name": "Brand Experiences",
+        "image": {
+            "url": "/public/images/paint.jpg",
+            "alt": "Description de l'image"
+        },
+        "text": "Concept-driven digital experiences designed to elevate perception and identity.",
+        "video": "/public/video/motion4.mp4"
+    }
+]
