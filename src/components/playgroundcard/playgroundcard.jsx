@@ -9,7 +9,7 @@ export default function PlaygroundCard({ item }){
     return(
         <motion.button className={`playground-card${isHover? " playground-card--active" : ""}`} onHoverEnd={() => setIsHover(prev => !prev)} onHoverStart={() => setIsHover(prev => !prev)}>
             <NavLink 
-                to={`${item.name}`}
+                to={`${item.slug}`}
                 className='playground-card__wrapper'
             >
                 <div className='playground-card__image-wrapper'>

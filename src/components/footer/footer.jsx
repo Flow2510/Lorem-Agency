@@ -6,18 +6,15 @@ import LineReveal from '../linereveal/linereveal';
 export default function Footer(){
 
     const medias = [
-        "/public/video/cursor.mp4",
-        "/public/video/introvideo.mp4",
-        "/public/video/motion.mp4",
-        "/public/video/motion2.mp4",
-        "/public/video/motion3.mp4",
-        "/public/video/motion4.mp4"
+        "/video/cursor.mp4",
+        "/video/introvideo.mp4",
+        "/video/motion.mp4",
+        "/video/motion2.mp4",
+        "/video/motion3.mp4",
+        "/video/motion4.mp4"
     ]
 
     const links = [
-        "Our Services",
-        "Our Projects",
-        "About Studio",
         "Creative Process",
         "Digital Strategy",
         "Brand Identity"
@@ -31,6 +28,10 @@ export default function Footer(){
         {
             text: "Services",
             link: "/services"
+        },
+        {
+            text: "Works",
+            link: "/works"
         },
         {
             text: "About",

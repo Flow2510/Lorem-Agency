@@ -1,0 +1,87 @@
+.text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    @media screen and (min-width:768px) {
+        flex-direction: row;
+        gap: 5rem;
+    }
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        @media screen and (min-width:768px){
+            gap: 4rem;
+            width: 70%;
+        }
+
+        &-title{
+            font-weight: 700;
+            font-family: "barlow", sans-serif;
+            letter-spacing: -2px;
+            font-size: 2.5rem;
+            overflow: hidden;
+
+            @media screen and (min-width:768px){
+                font-size: 3.5rem;
+            }
+        }
+
+        &-text{
+            display: flex;
+            flex-direction: row;
+            gap: 0.3rem;
+            flex-wrap: wrap;
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
+    }
+
+    &__word{
+        display: inline-block;
+
+        &-wrapper{
+            overflow: hidden;
+        }
+    }
+
+    &__image{
+        width: 100%;
+        aspect-ratio: 1 / 0.7;
+        object-fit: cover;
+        border-radius: 0.3rem;
+
+        &-wrapper{
+            width: 100%;
+
+            @media screen and (min-width:768px){
+                width: 30%;
+                border-radius: 0.5rem;
+            }
+        }
+    }
+
+    &__list{
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        @media screen and (min-width:768px){
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        &-item{
+            text-transform: uppercase;
+            font-weight: 400;
+            font-family: "barlow", sans-serif;
+            letter-spacing: 1px;
+            overflow: hidden;
+        }
+    }
+}

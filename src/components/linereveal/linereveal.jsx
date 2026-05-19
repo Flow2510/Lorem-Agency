@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import './linereveal.scss';
 
-export default function LineReveal({text, delay}) {
+export default function LineReveal({ text, delay }) {
     const letters = text.split("");
     const container = {
         hidden: {},

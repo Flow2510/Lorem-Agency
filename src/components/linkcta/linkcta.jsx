@@ -2,6 +2,9 @@ import { motion } from 'motion/react';
 import './linkcta.scss';
 
 export default function LinkCta(){
+    const text = "Let’s build your next digital presence together. Bring your ideas to life with modern and tailored solutions."
+    const splitText = text.split(" ");
+
     return(
         <section className='link-cta'>
             <div className='link-cta__wrapper'>
@@ -22,7 +25,7 @@ export default function LinkCta(){
                                 whileInView={{ width: 140 }}
                                 transition={{ duration: 0.4, delay: 0.4 }}
                                 viewport={{once: true}}
-                                src="/public/images/work.jpg" 
+                                src="/images/work.jpg" 
                                 alt="" 
                             />
                             <span style={{overflow: "hidden"}}>
@@ -40,7 +43,22 @@ export default function LinkCta(){
                 <div className='link-cta__content'>
                     <div className='link-cta__text-wrapper'>
                         <p className='link-cta__text'>
-                            Let’s build your next digital presence together. Bring your ideas to life with modern and tailored solutions.
+                            {splitText.map((word, index) => (
+                                <span
+                                    style={{ display: 'inline-block', overflow: "hidden"}}
+                                    key={word + index}
+                                >
+                                    <motion.span
+                                        style={{ display: 'inline-block'}}
+                                        initial={{ y: "100%" }}
+                                        whileInView={{ y: "0%" }}
+                                        viewport={{ once: true }}
+                                        transition={{ duration: 0.3, delay: index / 30 }}
+                                    >
+                                        {word}
+                                    </motion.span>
+                                </span>
+                            ))}
                         </p>
                     </div>
                     <div className='link-cta__button-wrapper'>

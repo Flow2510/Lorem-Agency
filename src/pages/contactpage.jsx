@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import Hero from "../components/hero/hero";
+import LinkCta from "../components/linkcta/linkcta";
 
 export default function ContactPage({items}){
     const heroTextLine = [
@@ -8,14 +9,15 @@ export default function ContactPage({items}){
 
     return(
         <motion.main
-            initial={{ x: "-100%", y: "100%" }}
-            animate={{ x: "0%", y: "0%" }}
-            exit={{ x: "100%", y: "-100%" }}
+            initial={{ scale: 0, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            exit={{ scale: 0, opacity: 0 }}
             transition={{ duration: 0.5 }}
         >
             <Hero 
                 heroTextLine={heroTextLine}
             />
+            <LinkCta />
         </motion.main>
     )
 }

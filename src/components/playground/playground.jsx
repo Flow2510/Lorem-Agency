@@ -11,16 +11,16 @@ export default function Playground({ items }){
     
     useEffect(() => {
         const handleMouseMove = (e) => {
-        setPosition({
-            x: e.clientX,
-            y: e.clientY,
-        });
+            setPosition({
+                x: e.clientX,
+                y: e.clientY,
+            });
         };
     
-        window.addEventListener("mousemove", handleMouseMove);
+        globalThis.addEventListener("mousemove", handleMouseMove);
     
         return () => {
-            window.removeEventListener("mousemove", handleMouseMove);
+            globalThis.removeEventListener("mousemove", handleMouseMove);
         };
     }, []);
 
@@ -83,16 +83,16 @@ export default function Playground({ items }){
                         Creative Direction & Development
                     </motion.h2>
                     <NavLink 
-                        to={'/services'}
+                        to={'/works'}
                         className='playground__content-subtitle'>
                         <LineReveal 
                             delay={0.2}
-                            text={"Services"}
+                            text={"Latest Works"}
                         />
                     </NavLink>
                 </div>
                 <div className='playground__gallery'>
-                    {items.map((item, index) => (
+                    {items.slice(0, 4).map((item, index) => (
                         <motion.div
                             onHoverStart={() => setCardHover(index)}
                             onHoverEnd={() => setCardHover(undefined)}

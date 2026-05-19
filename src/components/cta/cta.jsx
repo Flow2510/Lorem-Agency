@@ -15,35 +15,34 @@ export default function Cta() {
                 >
                     let’s create your next digital experience together
                 </motion.h2>
-
                 <p className='cta__content-text'>
                     <LineReveal 
                         text={"Modern design."}
-                        delay={0}
+                        delay={0.2}
                     />
                     <LineReveal 
                         text={"digital strategy."}
-                        delay={0}
+                        delay={0.2}
                     />
                     <LineReveal 
                         text={"custom solutions built"}
-                        delay={0}
+                        delay={0.2}
                     />
                     <LineReveal 
                         text={"to strengthen "}
-                        delay={0}
+                        delay={0.2}
                     />
                     <LineReveal 
                         text={"your brand image."}
-                        delay={0}
+                        delay={0.2}
                     />
                     <LineReveal 
                         text={"lasting impact."}
-                        delay={0}
+                        delay={0.2}
                     />
                     <LineReveal 
                         text={"real results."}
-                        delay={0}
+                        delay={0.2}
                     />
                 </p>
             </div>

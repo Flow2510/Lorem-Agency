@@ -13,13 +13,17 @@ export default function Menu({ menuIsOpen, setMenuIsOpen }){
             link: "/services"
         },
         {
+            text: "Works",
+            link: "/works"
+        },
+        {
             text: "About",
             link: "/about"
         },
         {
             text: "Contact",
             link: "/contact"
-        },
+        }
     ]
 
     return(

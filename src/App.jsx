@@ -3,6 +3,7 @@ import './App.scss'
 import Home from './pages/home'
 
 import items from './data/items.json'
+import features from './data/features.json'
 import Header from './components/header/header'
 import Footer from './components/footer/footer'
 import ProjectPage from './pages/projectpage'
@@ -11,6 +12,7 @@ import { useEffect, useState } from 'react'
 import ServicesPage from './pages/servicespage'
 import AboutPage from './pages/aboutpage'
 import ContactPage from './pages/contactpage'
+import WorksPage from './pages/workspage'
 
 function App() {
   const location = useLocation();
@@ -32,10 +34,22 @@ function App() {
   }, []);
 
   useEffect(() => {
-    globalThis.scrollTo({
-      top: 0,
-      behavior: "instant"
-    });
+    if (location.hash) {
+      setTimeout(() => {
+        const element = document.querySelector(location.hash);
+
+        if (element) {
+          element.scrollIntoView({
+            behavior: "smooth"
+          });
+        }
+      }, 100);
+    } else {
+      window.scrollTo({
+        top: 0,
+        behavior: "instant"
+      });
+    }
   }, [location]);
 
   return (
@@ -45,9 +59,10 @@ function App() {
         <Routes location={location} key={location.pathname}>
           <Route path='/' element={<Home items={items} />}/>
           <Route path='/:id' element={<ProjectPage items={items} />}/>
-          <Route path='/services' element={<ServicesPage />}/>
+          <Route path='/services' element={<ServicesPage items={items} features={features}/>}/>
           <Route path='/about' element={<AboutPage />}/>
           <Route path='/contact' element={<ContactPage />}/>
+          <Route path='/works' element={<WorksPage items={items}/>}/>
       </Routes>
       </AnimatePresence>
       <Footer />

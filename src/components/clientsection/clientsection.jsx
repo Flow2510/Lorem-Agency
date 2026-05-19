@@ -1,25 +1,26 @@
+import { motion } from 'motion/react';
 import './clientsection.scss';
 
 export default function ClientSection() {
     const brands = [
         {
-            image: '/public/images/brand1.png',
+            image: '/images/brand1.png',
             alt: "description brand1"
         },
         {
-            image: '/public/images/brand3.png',
+            image: '/images/brand3.png',
             alt: "description brand2"
         },
         {
-            image: '/public/images/brand2.png',
+            image: '/images/brand2.png',
             alt: "description brand3"
         },
         {
-            image: '/public/images/brand4.png',
+            image: '/images/brand4.png',
             alt: "description brand4"
         },
         {
-            image: '/public/images/brand5.png',
+            image: '/images/brand5.png',
             alt: "description brand5"
         }
     ]
@@ -28,8 +29,12 @@ export default function ClientSection() {
         <section className='client-section'>
             <div className='client-section__wrapper'>
                 {brands.map((brand, index) => (
-                    <div 
+                    <motion.div 
                         className='client-section__logo'
+                        initial={{ opacity: 0, y: 100 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.5, delay: index / 10}}
                         key={index + brand.alt}
                     >
                         <img 
@@ -37,7 +42,7 @@ export default function ClientSection() {
                             alt="" 
                             className='client-section__logo-image'
                         />
-                    </div>
+                    </motion.div>
                 ))}
             </div>
         </section>

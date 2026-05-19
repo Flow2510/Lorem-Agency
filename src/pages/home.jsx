@@ -9,23 +9,25 @@ import VideoSection from "../components/videosection/videosection";
 
 export default function Home({ items }) {
     const heroTextLine = [
-        "web studio",
-        "digital lab",
-        "creative"
+        "We Build",
+        "digital",
+        "Experiences"
     ]
 
     return(
         <motion.main
-            initial={{ x: "-100%", y: "100%" }}
-            animate={{ x: "0%", y: "0%" }}
-            exit={{ x: "100%", y: "-100%" }}
+            initial={{ scale: 0.5, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            exit={{ scale: 0.5, opacity: 0 }}
             transition={{ duration: 0.5 }}
         >
             <Hero 
                 heroTextLine={heroTextLine}
                 video={'/public/video/cursor.mp4'}
             />
-            <VideoSection />
+            <VideoSection 
+                video={'/video/introvideo.mp4'}
+            />
             <Cta />
             <Playground items={items}/>
             <FeaturesSection />

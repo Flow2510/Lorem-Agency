@@ -1,4 +1,6 @@
 .features-section{
+    padding: 1rem;
+    position: relative;
 
     &__wrapper{
         display: flex;
@@ -14,7 +16,6 @@
         }
 
         &-title{
-            font-size: 0.95rem;
             font-weight: 400;
             font-family: "barlow", sans-serif;
             text-align: center;
@@ -45,6 +46,8 @@
         transition: color 0.3s ease-in-out;
         cursor: pointer;
         position: relative;
+        display: flex;
+        justify-content: center;
 
         @media screen and (min-width:768px){
             font-size: 4rem;
@@ -60,6 +63,25 @@
             letter-spacing: -2px;
         }
 
+        &-content{
+            position: relative;
+            width: fit-content;
+        }
+
+        &-subtitle{
+            font-size: 1.5rem;
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translate(200%, -50%);
+            display: none;
+            font-weight: 400;
+
+            &--active{
+                display: block;
+            }
+        }
+
         &-wrapper{
             position: absolute;
             height: 200px;
@@ -69,6 +91,7 @@
             transform: translateY(-50%);
             display: none;
             border-radius: 0.5rem;
+            left: 0;
 
             &--active{
                 
@@ -87,25 +110,28 @@
         }
     }
 
-    &__button{
-        font-size: 0.95rem;
+    &__link{
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        font-size: 1rem;
         font-weight: 400;
         font-family: "barlow", sans-serif;
-        align-self: center;
         letter-spacing: 2px;
         text-transform: uppercase;
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-        border: none;
-        background: none;
-        cursor: pointer;
-        position: relative;
+        width: fit-content;
+        text-decoration: none;
+        color: inherit;
         transition: scale 0.3s ease-in-out, gap 0.3s ease-in-out;
 
         &:hover{
             scale: 1.05;
             gap: 0.7rem;
+        }
+
+        &-wrapper{
+            display: flex;
+            justify-content: center;
         }
     }
 }

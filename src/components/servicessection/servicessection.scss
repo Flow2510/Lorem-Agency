@@ -1,0 +1,42 @@
+.services-section{
+    padding: 1rem 0.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+
+    @media screen and (min-width:768px){
+        flex-direction: row;
+        padding: 1rem 1rem 10rem;
+    }
+
+    &__content{
+
+        @media screen and (min-width:768px){
+            width: 25%;
+            height: fit-content;
+            position: sticky;
+            top: 5rem;
+            left: 0;
+        }
+
+        &-title{
+            font-weight: 400;
+            font-family: "barlow", sans-serif;
+            letter-spacing: 1px;
+            font-size: 1rem;
+            text-transform: uppercase;
+        }
+    }
+
+    &__gallery{
+        display: flex;
+        flex-direction: column;
+        gap: 6rem;
+
+        @media screen and (min-width:768px){
+            width: 75%;
+            gap: 10rem;
+        }
+    }
+}

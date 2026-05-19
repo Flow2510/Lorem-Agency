@@ -1,39 +1,116 @@
 [
-  
   {
     "name": "Web Design",
-    "id": "02",
+    "id": "01",
     "image": "/public/images/food.jpg",
-    "alt": "website design project"
+    "alt": "website design project",
+    "video": "/public/video/cursor.mp4",
+    "title": "",
+    "list": [
+      "Responsive Design",
+      "Landing Pages",
+      "UI Systems",
+      "Performance",
+      "SEO Basics",
+      "Website Architecture",
+      "Conversion Optimization",
+      "Mobile First"
+    ],
+    "text": "Creating modern, elegant, and high-performing websites designed to deliver a smooth experience across all devices. Each interface is built to strengthen your brand image, improve user engagement, and turn visitors into customers."
   },
   {
     "name": "Motion Design",
-    "id": "03",
+    "id": "02",
     "image": "/public/images/paint.jpg",
-    "alt": "motion graphics project"
+    "alt": "motion graphics project",
+    "video": "/public/video/introvideo.mp4",
+    "title": "",
+    "list": [
+      "2D Animation",
+      "Visual Storytelling",
+      "Social Content",
+      "Transitions",
+      "Brand Videos",
+      "Animated Typography",
+      "Explainer Videos",
+      "Creative Direction"
+    ],
+    "text": "Designing dynamic animations and impactful visual content to elevate your communication. Motion design helps capture attention, simplify complex messages, and bring rhythm and energy to your visual identity."
   },
   {
-    "id": "02",
+    "id": "03",
     "name": "Interactive",
     "image": "/public/images/music.jpg",
-    "alt": "interactive website project"
+    "alt": "interactive website project",
+    "video": "/public/video/motion.mp4",
+    "title": "",
+    "list": [
+      "Micro-interactions",
+      "User Engagement",
+      "Scroll Effects",
+      "Interactive UI",
+      "Dynamic Experiences",
+      "Hover Animations",
+      "Immersive Navigation",
+      "Custom Interactions"
+    ],
+    "text": "Building immersive interactive experiences that make navigation more engaging and memorable. The goal is to create a stronger connection between users and your digital world through smart and meaningful interactions."
   },
   {
     "name": "UI / UX Design",
-    "id": "06",
+    "id": "04",
     "image": "/public/images/food.jpg",
-    "alt": "ui ux design project"
+    "alt": "ui ux design project",
+    "video": "/public/video/motion2.mp4",
+    "title": "",
+    "list": [
+      "Wireframing",
+      "User Flows",
+      "Prototyping",
+      "Design Systems",
+      "Accessibility",
+      "User Research",
+      "Interface Testing",
+      "Journey Mapping"
+    ],
+    "text": "Designing intuitive interfaces and optimized user experiences that simplify every journey. UI/UX design combines aesthetics, clarity, and usability to improve satisfaction and increase conversions."
   },
   {
     "name": "Digital Strategy",
-    "id": "07",
+    "id": "05",
     "image": "/public/images/paint.jpg",
-    "alt": "digital strategy project"
+    "alt": "digital strategy project",
+    "video": "/public/video/motion3.mp4",
+    "title": "",
+    "list": [
+      "Brand Positioning",
+      "Content Strategy",
+      "Audience Analysis",
+      "Growth Planning",
+      "Conversion Goals",
+      "Marketing Funnel",
+      "Digital Presence",
+      "Campaign Strategy"
+    ],
+    "text": "Building a clear and effective digital strategy to grow your online presence and achieve your business goals. Every action is planned to strengthen visibility, increase impact, and support long-term growth."
   },
   {
     "name": "Brand Identity",
-    "id": "01",
+    "id": "06",
     "image": "/public/images/brand.jpg",
-    "alt": "branding project"
+    "alt": "branding project",
+    "video": "/public/video/motion4.mp4",
+    "title": "",
+    "list": [
+      "Logo Design",
+      "Visual Language",
+      "Brand Guidelines",
+      "Typography",
+      "Color Systems",
+      "Creative Identity",
+      "Brand Consistency",
+      "Visual Strategy"
+    ],
+    "text": "Creating strong, recognizable visual identities aligned with your brand values. Branding helps build a consistent, professional, and memorable image that sets your business apart from the competition."
   }
 ]

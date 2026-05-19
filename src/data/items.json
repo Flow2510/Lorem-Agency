@@ -1,42 +1,90 @@
 [
-    {
-        "id": "123",
-        "name": "Creative Front-end",
-        "image": {
-            "url": "/public/images/food.jpg",
-            "alt": "Description de l'image"
-        },
-        "text": "Immersive interfaces built with motion, interaction and strong visual rhythm.",
-        "video": "/public/video/motion.mp4"
+  {
+    "id": "123",
+    "slug": "studio-horizon",
+    "name": "Studio Horizon",
+    "image": {
+      "url": "/public/images/mockup.jpg",
+      "alt": "Creative portfolio website project"
     },
-    {
-        "id": "461",
-        "name": "Motion-first Design",
-        "image": {
-            "url": "/public/images/brand.jpg",
-            "alt": "Description de l'image"
-        },
-        "text": "Animations crafted to create emotion, storytelling and stronger user engagement.",
-        "video": "/public/video/motion2.mp4"
+    "text": "A modern portfolio experience designed for a creative studio, combining bold layouts, smooth interactions, and immersive visual storytelling.",
+    "video": "/public/video/motion.mp4"
+  },
+  {
+    "id": "461",
+    "slug": "nova-motion",
+    "name": "Nova Motion",
+    "image": {
+      "url": "/public/images/brand.jpg",
+      "alt": "Motion design showcase project"
     },
-    {
-        "id": "156",
-        "name": "Visual Direction",
-        "image": {
-            "url": "/public/images/music.jpg",
-            "alt": "Description de l'image"
-        },
-        "text": "Strong digital aesthetics inspired by editorial layouts and premium design systems.",
-        "video": "/public/video/motion3.mp4"
+    "text": "A motion-first digital concept built to highlight animation, rhythm, and storytelling through dynamic transitions and engaging visual sequences.",
+    "video": "/public/video/motion2.mp4"
+  },
+  {
+    "id": "156",
+    "slug": "atelier-frame",
+    "name": "Atelier Frame",
+    "image": {
+      "url": "/public/images/music.jpg",
+      "alt": "Premium design system project"
     },
-    {
-        "id": "896",
-        "name": "Brand Experiences",
-        "image": {
-            "url": "/public/images/paint.jpg",
-            "alt": "Description de l'image"
-        },
-        "text": "Concept-driven digital experiences designed to elevate perception and identity.",
-        "video": "/public/video/motion4.mp4"
-    }
+    "text": "A premium visual identity project inspired by editorial design, focused on elegant structure, strong typography, and refined digital aesthetics.",
+    "video": "/public/video/motion3.mp4"
+  },
+  {
+    "id": "896",
+    "slug": "vision-collective",
+    "name": "Vision Collective",
+    "image": {
+      "url": "/public/images/paint.jpg",
+      "alt": "Brand experience concept project"
+    },
+    "text": "A concept-driven brand experience created to elevate perception through strong art direction, immersive storytelling, and strategic visual design.",
+    "video": "/public/video/motion4.mp4"
+  },
+  {
+    "id": "742",
+    "slug": "echo-studio",
+    "name": "Echo Studio",
+    "image": {
+      "url": "/public/images/food.jpg",
+      "alt": "Creative agency landing page project"
+    },
+    "text": "A bold landing page concept for a digital studio focused on storytelling, strong visuals, and premium user interaction across every section.",
+    "video": "/public/video/motion.mp4"
+  },
+  {
+    "id": "315",
+    "slug": "luma-brand",
+    "name": "Luma Brand",
+    "image": {
+      "url": "/public/images/brand.jpg",
+      "alt": "Luxury branding website project"
+    },
+    "text": "A luxury-inspired branding project created to showcase elegance, refined layouts, and a strong visual identity for modern premium brands.",
+    "video": "/public/video/motion2.mp4"
+  },
+  {
+    "id": "584",
+    "slug": "pixel-house",
+    "name": "Pixel House",
+    "image": {
+      "url": "/public/images/music.jpg",
+      "alt": "Interactive design portfolio project"
+    },
+    "text": "An interactive portfolio built around transitions, motion effects, and immersive navigation to create a memorable and engaging digital experience.",
+    "video": "/public/video/motion3.mp4"
+  },
+  {
+    "id": "927",
+    "slug": "north-vision",
+    "name": "North Vision",
+    "image": {
+      "url": "/public/images/paint.jpg",
+      "alt": "Creative direction website project"
+    },
+    "text": "A concept website focused on creative direction and digital strategy, blending minimalist structure with strong visual storytelling and motion.",
+    "video": "/public/video/motion4.mp4"
+  }
 ]

@@ -1,0 +1,47 @@
+.cta-title{
+    text-transform: uppercase;
+    padding: 1rem 1rem 4rem;
+
+    @media screen and (min-width:768px){
+        padding: 3rem 1rem 7rem;
+    }
+
+    &__title{
+        display: flex;
+        flex-direction: column;
+        font-size: 3.2rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-wrap: nowrap;
+        line-height: 90%;
+        font-family: "Sofia Sans Extra Condensed", sans-serif;
+        
+        @media screen and (min-width:768px){
+            font-size: 7rem;
+        }
+
+        &-line{
+            display: flex;
+            align-items: center;
+            gap: 0.7rem;
+            overflow: hidden;
+
+            span{
+                display: inline-block;
+            }
+        }
+    }
+
+    &__image{
+        max-width: 100px;
+        height: 40px;
+        border-radius: 0.25rem;
+        object-fit: cover;
+        display: inline-block;
+
+        @media screen and (min-width:768px){
+            max-width: 180px;
+            height: 85px;
+        }
+    }
+}
