@@ -26,7 +26,7 @@ export default function WorksPage({ items }){
                 textLine1={"Let's Build"}
                 textLine2={"Something"}
                 textLine3={"Exceptional"}
-                image={"/public/images/work.jpg"}
+                image={"/images/work.jpg"}
                 alt={""}
             />
             <ProjectsList 

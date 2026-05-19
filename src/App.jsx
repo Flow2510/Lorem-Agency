@@ -68,7 +68,7 @@ function App() {
       <Footer />
       <div className='fixed-button'>
         <button className='fixed-button__button' aria-label='Contact me via WhatsApp'>
-          <img className='fixed-button__button-image' src="/public/images/phone.png" alt="" />
+          <img className='fixed-button__button-image' src="/images/phone.png" alt="" />
         </button>
       </div>
       <div className='fixed-content'>

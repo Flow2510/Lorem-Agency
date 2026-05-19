@@ -2,9 +2,9 @@
   {
     "name": "Web Design",
     "id": "01",
-    "image": "/public/images/food.jpg",
+    "image": "/images/food.jpg",
     "alt": "website design project",
-    "video": "/public/video/cursor.mp4",
+    "video": "/video/cursor.mp4",
     "title": "",
     "list": [
       "Responsive Design",
@@ -21,9 +21,9 @@
   {
     "name": "Motion Design",
     "id": "02",
-    "image": "/public/images/paint.jpg",
+    "image": "/images/paint.jpg",
     "alt": "motion graphics project",
-    "video": "/public/video/introvideo.mp4",
+    "video": "/video/introvideo.mp4",
     "title": "",
     "list": [
       "2D Animation",
@@ -40,9 +40,9 @@
   {
     "id": "03",
     "name": "Interactive",
-    "image": "/public/images/music.jpg",
+    "image": "/images/music.jpg",
     "alt": "interactive website project",
-    "video": "/public/video/motion.mp4",
+    "video": "/video/motion.mp4",
     "title": "",
     "list": [
       "Micro-interactions",
@@ -59,9 +59,9 @@
   {
     "name": "UI / UX Design",
     "id": "04",
-    "image": "/public/images/food.jpg",
+    "image": "/images/food.jpg",
     "alt": "ui ux design project",
-    "video": "/public/video/motion2.mp4",
+    "video": "/video/motion2.mp4",
     "title": "",
     "list": [
       "Wireframing",
@@ -78,9 +78,9 @@
   {
     "name": "Digital Strategy",
     "id": "05",
-    "image": "/public/images/paint.jpg",
+    "image": "/images/paint.jpg",
     "alt": "digital strategy project",
-    "video": "/public/video/motion3.mp4",
+    "video": "/video/motion3.mp4",
     "title": "",
     "list": [
       "Brand Positioning",
@@ -97,9 +97,9 @@
   {
     "name": "Brand Identity",
     "id": "06",
-    "image": "/public/images/brand.jpg",
+    "image": "/images/brand.jpg",
     "alt": "branding project",
-    "video": "/public/video/motion4.mp4",
+    "video": "/video/motion4.mp4",
     "title": "",
     "list": [
       "Logo Design",
