@@ -31,7 +31,7 @@ export default function ServicesPage({features, items}){
                 textLine1={"Let’s Create"}
                 textLine2={"Your"}
                 textLine3={"Next Project"}
-                image={"/public/images/work.jpg"}
+                image={"/images/work.jpg"}
                 alt={""}
             />
             <ServicesSection 

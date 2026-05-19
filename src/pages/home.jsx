@@ -23,7 +23,7 @@ export default function Home({ items }) {
         >
             <Hero 
                 heroTextLine={heroTextLine}
-                video={'/public/video/cursor.mp4'}
+                video={'/video/cursor.mp4'}
             />
             <VideoSection 
                 video={'/video/introvideo.mp4'}
